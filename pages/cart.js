@@ -101,6 +101,7 @@ export default function CartPage() {
   function lessOfThisProduct(id) {
     removeProduct(id);
   }
+
   async function goToPayment() {
     const response = await axios.post('/api/checkout', {
       name,email,city,postalCode,streetAddress,country,
