@@ -1,40 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Voluntrope
 
-## Getting Started
+Final project for an e-commerce platform connecting donors with verified volunteers.
 
-First, run the development server:
+![image](https://github.com/user-attachments/assets/85b3422a-3ac6-4829-a949-8f791cf20362)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Are you looking for a way to support grassroots volunteer initiatives directly? Voluntrope is an innovative platform that allows donors to provide financial support to verified individual volunteers and small organizations, bypassing traditional organizational structures.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Video Introduction
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+https://github.com/user-attachments/assets/88b8f4f2-133b-47d8-8de1-9743da374818.mp4
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Features
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### User_Admin Authentication
+- Users can register an account using their email and password authorized by the project's managers.
+- Existing admin users can log in to access their accounts.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+![image](https://github.com/user-attachments/assets/12e30a32-89c9-4b1f-8420-14c6e339ff7c)
 
-## Learn More
+![image](https://github.com/user-attachments/assets/d909f7d9-675a-4ea8-ad44-f53efe0a9fb8)
 
-To learn more about Next.js, take a look at the following resources:
+### Verified Donations
+- Volunteers undergo personal interviews and background checks.
+- All financial transactions and volunteer activities are documented for transparency.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Direct Donations
+- Donors can provide financial support directly to individual volunteers or small organizations.
+- This feature bypasses traditional organizational structures for more effective support.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+![image](https://github.com/user-attachments/assets/e3277f7b-a905-49c5-9962-504e7643fdd4)
 
-## Deploy on Vercel
+### Organized Volunteering
+- Funding options are available to hire employees for volunteer initiatives.
+- This supports the creation of sustainable and impactful volunteer programs.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![image](https://github.com/user-attachments/assets/38551bf3-587a-4893-a33a-69c5e1b226b3)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Project and Volunteer Management
+- Volunteers can create and manage projects with descriptions, funding goals, and required skills.
+- Donors can browse and support various projects directly.
+
+  ![image](https://github.com/user-attachments/assets/4460f36c-5e64-4725-b4e5-f3eb6a9b7b12)
+
+## Technologies Used
+
+- **Programming Language**: The application uses JavaScript and React for the front and Node.js for the back.
+- **Framework**: Next.js builds a server-rendered React application.
+- **Database**: MongoDB is used for its flexibility, scalability, and performance.
+- **Cloud Storage**: AWS S3 for storing images and documents.
+- **Payment Processing**: Stripe is integrated for handling donations.
+- **Authentication**: Google Cloud is used for user registration and authentication.
+
+## Contributors
+
+- Zuf Kishon: [zufk123@gmail.com](mailto:zufk123@gmail.com)
+- Guy Honen: [guyh146@gmail.com](mailto:guyh146@gmail.com)
+ 
+---
